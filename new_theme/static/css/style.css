@@ -1,0 +1,94 @@
+/* GENERAL */
+
+body, html {
+    height: 100%;
+    color: #c5c5c5;
+    letter-spacing: 0.1rem;
+    font-size: 1.1rem;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #081528; 
+}
+
+.master {
+    min-height: calc(100vh - 70px);
+}
+
+.main {
+    border-left: 1px dotted #c5c5c5;
+    border-right: 1px dotted #c5c5c5;
+}
+
+p {
+    font-size: 1.1rem;
+}
+hr {
+    border: 1px solid;
+    border-color: #c5c5c5; 
+}
+
+.btn-outline-primary {
+    color: #F0AB34;
+    border-color: #F0AB34;
+}
+
+.btn-outline-primary:hover {
+    color: #081528;
+    border-color: #F0AB34;
+    background-color: #F0AB34;
+}
+
+footer {
+    background-color: transparent;
+    height: 50px;
+}
+
+a {
+    color: #c5c5c5;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #F0AB34;
+}
+
+.my-name {
+    letter-spacing: 0.5rem;
+}
+
+/* Portfolio */
+#portfolio {
+    display: none;
+}
+
+.preview {
+    border: 1px solid #c5c5c5;
+    min-width: 150px;
+    min-height: 150px;
+}
+
+.preview p {
+    font-size: 1.2rem;
+}
+
+.preview:hover {
+    border: 1px solid #081528;
+    background-color: #F0AB34;
+    color: #081528;
+    opacity: 0.8;
+    box-shadow: 0.2rem #c5c5c5;
+}
+
+/* Content */
+.content {
+    border: 1px solid #c5c5c5;
+    max-width: 450px;
+}
+
+.content p {
+    margin: 0;
+    padding: 0 1rem 0 1rem;
+}
+
+.content a {
+    color: #F0AB34;
+}

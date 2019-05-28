@@ -1,0 +1,21 @@
+<div id="portfolio" class="main col-8 mx-auto my-auto container">
+  <div class="text-right mb-3">
+    <a href="" onclick="toHome()">
+        <i class="fas fa-times fa-lg fa-2x"></i>
+    </a>
+  </div>
+  <div class="d-flex flex-wrap justify-content-around">
+    {% for article in articles %}
+    <div class="mb-3 mx-3">
+      <div class="row">
+          <a href="#" onclick="toContent('{{ article.label }}')">
+              <div class="preview d-flex h-100" id="{{ article.label }}-title">
+                <p class="align-self-center mx-auto font-weight-bold">{{ article.title }}</p>
+              </div>
+            </a>
+            {% include "content.html" %}
+      </div>      
+    </div>
+    {% endfor %}
+  </div>
+</div>

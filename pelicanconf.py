@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Migazzi'
 SITENAME = 'Cédric Migazzi'
-SITESUBTITLE = 'Développeur, Musicien & Enseignant'
+SITESUBTITLE = 'développeur - musicien - enseignant'
 SITEURL = ''
 
 PATH = 'content'
@@ -30,4 +30,4 @@ SOCIAL = (('GitHub', '#'),
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
-DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = True
