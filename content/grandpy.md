@@ -2,12 +2,12 @@ Title: Grandpy Bot
 Date: 2019-02-10 10:20
 Label: grandpybot
 
-__Search places addresses and learn history about them !__
+*Search places addresses and learn history about them !*
 
 <br/>
 Chatbot built with Flask.
 Deploy on heroku
 
-_[Visit the website](https://grandpy201902.herokuapp.com/)_
+*[Visit the website](https://grandpy201902.herokuapp.com/){:target="_blank"}*
 
-_[View code](https://github.com/cmigazzi/P7_GrandpyBot)_
+*[View code](https://github.com/cmigazzi/P7_GrandpyBot){:target="_blank"}*

@@ -7,4 +7,4 @@ Label: macgyver
 <br/>
 Labirynth game developped with Pygame.
 
-*[View code](https://github.com/cmigazzi/P3_macgyver)*
+*[View code](https://github.com/cmigazzi/P3_macgyver){:target="_blank"}*

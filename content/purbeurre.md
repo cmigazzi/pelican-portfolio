@@ -7,6 +7,6 @@ Label: purbeurre
 <br/>
 Django app with postgreSQL deploy on heroku.
 
-*[Visit the website](https://eatbetter2019.herokuapp.com/)*
+*[Visit the website](https://eatbetter2019.herokuapp.com/){:target="_blank"}*
 
-*[View code](https://github.com/cmigazzi/P8_Pur_Beurre)*
+*[View code](https://github.com/cmigazzi/P8_Pur_Beurre){:target="_blank"}*
