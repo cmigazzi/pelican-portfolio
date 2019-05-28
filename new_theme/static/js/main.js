@@ -15,15 +15,17 @@ function toHome() {
 function toContent(target) {
     var content = document.getElementById(target+'-content')
     var title = document.getElementById(target+'-title')
-    if (content.style.display == "none") {
-        content.style.display = "inline-block";
-        title.style.backgroundColor = "#c5c5c5";
-        title.style.color = "#081528";
+    var wrapper = document.getElementById(target+'-wrapper')
+    if (content.classList.contains("content")) {
+        wrapper.classList.add("col-12");
+        content.classList.replace("content", "content-visible");
+        title.classList.replace("preview", "preview-active");
 
     } else {
-        content.style.display = "none";
-        title.style.removeProperty("background-color");
-        title.style.removeProperty("color");
+        content.classList.replace("content-visible", "content");
+        title.classList.replace("preview-active", "preview");
+        wrapper.classList.remove("col-12");
+
     }
 
 }
