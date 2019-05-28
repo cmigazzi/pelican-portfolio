@@ -24,8 +24,8 @@ AUTHOR_FEED_RSS = None
 LINKS = ()
 
 # Social widget
-SOCIAL = (('GitHub', '#'),
-          ('LinkedIn', '#'),)
+SOCIAL = (('GitHub', 'https://github.com/cmigazzi'),
+          ('LinkedIn', 'https://www.linkedin.com/in/c%C3%A9dric-migazzi-b24545174/'),)
 
 
 # Uncomment following line if you want document-relative URLs when developing

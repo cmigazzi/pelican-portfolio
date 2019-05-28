@@ -32,8 +32,15 @@
   <footer class="">
     {% if SOCIAL%}
       <div class="col-8 social mx-auto d-flex justify-content-around pb-2">
-          <i class="fab fa-github fa-lg fa-2x"></i>
-          <i class="fab fa-linkedin fa-lg fa-2x"></i>
+        {% for name, link in SOCIAL %}
+          {% if name == "GitHub" %}
+            <a href="{{ link }}" target="_blank"><i class="fab fa-github fa-lg fa-2x"></i></a> 
+          {% endif %}
+          {% if name == "LinkedIn" %}
+            <a href="{{ link }}" target="_blank"><i class="fab fa-linkedin fa-lg fa-2x"></i></a>
+          {% endif %}
+        {% endfor %}
+          
       </div><!-- /.social -->
     {% endif %}
   </footer><!-- /#contentinfo -->
