@@ -5,7 +5,8 @@ Label: purbeurre
 **Find healthy products !**
 
 <br/>
-Django app with postgreSQL deploy on heroku.
+Django app with postgreSQL. 
+Deployed on Heroku.
 
 *[Visit the website](https://eatbetter2019.herokuapp.com/){:target="_blank"}*
 
