@@ -61,7 +61,7 @@ a:hover {
 
 .preview {
     border: 1px solid #c5c5c5;
-    min-width: 150px;
+    width: 150px;
     min-height: 150px;
 }
 
@@ -81,7 +81,7 @@ a:hover {
     border: 1px solid #c5c5c5;
     background-color: #c5c5c5;
     color: #081528;
-    min-width: 150px;
+    width: 150px;
     min-height: 150px;
 }
 

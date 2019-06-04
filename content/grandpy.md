@@ -8,6 +8,7 @@ Label: grandpybot
 Chatbot built with Flask.
 Deployed on Heroku.
 
+<br/>
 *[Visit the website](https://grandpy201902.herokuapp.com/){:target="_blank"}*
 
 *[View code](https://github.com/cmigazzi/P7_GrandpyBot){:target="_blank"}*
