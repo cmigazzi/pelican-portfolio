@@ -9,6 +9,6 @@ Chatbot built with Flask.
 Deployed on Heroku.
 
 <br/>
-*[Visit the website](https://grandpy201902.herokuapp.com/){:target="_blank"}*
+*[Visit the website](https://grandpy201902.herokuapp.com/){:target="_blank"} (app needs to reload, so please wait few seconds...)*
 
 *[View code](https://github.com/cmigazzi/P7_GrandpyBot){:target="_blank"}*
