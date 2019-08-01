@@ -6,9 +6,10 @@ Label: purbeurre
 
 <br/>
 Django app with postgreSQL. 
-Deployed on Heroku.
+Deployed with Nginx and Gunicorn on Ubuntu.
+Continuous Integration with Travis CI.
 
 <br/>
-*[Visit the website](https://eatbetter2019.herokuapp.com/){:target="_blank"} (app needs to reload, so please wait few seconds...)*
+*[Visit the website](http://167.99.143.96/){:target="_blank"}*
 
 *[View code](https://github.com/cmigazzi/P8_Pur_Beurre){:target="_blank"}*
